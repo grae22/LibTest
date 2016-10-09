@@ -21,9 +21,18 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+# VS - we want the PDB and DLLs, though.
+*.suo
+*.log
+*.exp
+*.ilk
+*.tlog
+*.idb
+*.db
+*.user
